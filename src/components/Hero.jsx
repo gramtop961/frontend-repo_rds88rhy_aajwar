@@ -19,8 +19,8 @@ export default function Hero() {
               transition={{ duration: 0.6 }}
               className="mt-2 text-4xl sm:text-5xl lg:text-6xl font-semibold tracking-tight text-white"
             >
-              Tech-first portfolio
-              <span className="block bg-gradient-to-r from-cyan-300 via-sky-200 to-violet-300 bg-clip-text text-transparent">sleek. modern. playful.</span>
+              Journey — From Moments to Innovation
+              <span className="block bg-gradient-to-r from-cyan-300 via-sky-200 to-violet-300 bg-clip-text text-transparent">a dark, futuristic canvas</span>
             </motion.h1>
 
             <motion.p
@@ -29,13 +29,13 @@ export default function Hero() {
               transition={{ duration: 0.6, delay: 0.1 }}
               className="mt-6 text-base sm:text-lg leading-7 text-white/70 max-w-xl"
             >
-              Minimal surface area, maximum impact. Interact with the 3D canvas and then glide through an animated scroller.
+              Interact with the 3D hero and then glide into a flowing marquee of tech. Built with React, Framer Motion, and Tailwind.
             </motion.p>
           </div>
 
           <div className="relative h-[420px] sm:h-[520px] lg:h-[620px] rounded-2xl overflow-hidden border border-white/10 bg-gradient-to-b from-white/5 to-white/0">
             <Spline
-              scene="https://prod.spline.design/VJLoxp84lCdVfdZu/scene.splinecode"
+              scene="https://prod.spline.design/EF7JOSsHLk16Tlw9/scene.splinecode"
               style={{ width: '100%', height: '100%' }}
             />
             <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#0b1020] via-transparent to-transparent" />

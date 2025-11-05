@@ -5,7 +5,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
   const navItems = [
     { label: 'Home', href: '#' },
-    { label: 'Scroll', href: '#flow' },
+    { label: 'Flow', href: '#flow' },
     { label: 'Contact', href: '#contact' },
   ];
 
@@ -13,7 +13,7 @@ export default function Navbar() {
     <header className="fixed top-0 inset-x-0 z-50 border-b border-white/10 bg-[#0b1020]/70 backdrop-blur">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
-          <a href="#" className="font-semibold tracking-tight text-white">BlueTech</a>
+          <a href="#" className="font-semibold tracking-tight text-white">Journey</a>
 
           <nav className="hidden md:flex items-center gap-8">
             {navItems.map((item) => (

@@ -40,7 +40,7 @@ function MarqueeRow({ items = [], reverse = false, speed = 40 }) {
 }
 
 export default function Scroller() {
-  const tech = ['Next.js', 'React', 'TypeScript', 'FastAPI', 'Python', 'Node', 'Postgres', 'MongoDB', 'Tailwind', 'Framer Motion', 'Three.js'];
+  const tech = ['React', 'Vite', 'Tailwind', 'Framer Motion', 'GSAP', 'Lottie', 'Three.js', 'Spline', 'Web Audio API', 'FastAPI', 'MongoDB'];
 
   return (
     <section className="relative">
@@ -50,11 +50,11 @@ export default function Scroller() {
         <div className="sticky top-20 sm:top-24">
           <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl sm:text-5xl md:text-6xl font-semibold tracking-tight text-white">
-              Technology that feels
-              <span className="block bg-gradient-to-r from-cyan-300 via-sky-200 to-violet-300 bg-clip-text text-transparent">effortless</span>
+              Flow through the stack
+              <span className="block bg-gradient-to-r from-cyan-300 via-sky-200 to-violet-300 bg-clip-text text-transparent">from moments to innovation</span>
             </h2>
             <p className="mt-4 max-w-2xl text-white/70 leading-7">
-              A single flowing canvas instead of boxes and cards. Scroll to explore our vibe — motion, depth, and clarity.
+              A single, continuous canvas. Scroll to feel the motion — subtle, polished, and purposeful.
             </p>
             <div className="mt-8 inline-flex items-center gap-2 text-white/70">
               <ArrowDown className="animate-bounce" size={18} />
@@ -79,7 +79,7 @@ export default function Scroller() {
       <div className="relative py-24">
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
           <p className="text-xl sm:text-2xl md:text-3xl text-white/90 leading-relaxed">
-            We partner with founders and product teams to ship polished, performant experiences. Minimal surface, maximal sophistication.
+            Every frame, every pixel, every line of code — crafted to resonate.
           </p>
         </div>
       </div>
